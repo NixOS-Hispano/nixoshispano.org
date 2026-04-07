@@ -20,6 +20,6 @@ NixOS es una distribución de Linux construida sobre el gestor de paquetes Nix. 
 ## Únete a la comunidad
 
 - **Telegram**: [NixOS Hispano](https://t.me/nixoshispano)
-- **Matrix**: [#nixoshispano:matrix.org](https://matrix.to/#/#nixoshispano:matrix.org)
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/groups/17866051/)
 
 ¡Nos vemos en la comunidad!
