@@ -69,8 +69,8 @@ const config: Config = {
           position: "left",
         },
         {
-          href: "https://gitlab.com/nixoshispano/nixoshispano.org",
-          label: "GitLab",
+          href: "https://github.com/nixos-hispano/nixoshispano.org",
+          label: "GitHub",
           position: "right",
         },
       ],
@@ -120,8 +120,8 @@ const config: Config = {
               href: "https://nixoshispano.org/blog/atom.xml",
             },
             {
-              label: "GitLab",
-              href: "https://gitlab.com/nixoshispano/nixoshispano.org",
+              label: "GitHub",
+              href: "https://github.com/nixos-hispano/nixoshispano.org",
             },
           ],
         },
