@@ -1,0 +1,10 @@
+site/node_modules/
+site/build/
+site/public/
+site/.docusaurus/
+site/.cache-loader/
+site/bun.lock
+*.log
+.devenv.flake.nix
+devenv.lock
+.devenv/
