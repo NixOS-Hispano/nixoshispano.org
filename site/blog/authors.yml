@@ -1,0 +1,15 @@
+nixoshispano:
+  name: NixOS Hispano
+  url: https://nixoshispano.org
+  image_url: /img/nixos.png
+
+# Para añadir un nuevo autor, copia este bloque y rellena los datos:
+#
+# nombre_usuario:
+#   name: Nombre Completo
+#   title: Rol o descripción (opcional)
+#   url: https://enlace-personal.com (opcional)
+#   image_url: https://url-de-avatar.com/foto.jpg (opcional)
+#   socials:
+#     gitlab: usuario-gitlab (opcional)
+#     x: usuario-x (opcional)
