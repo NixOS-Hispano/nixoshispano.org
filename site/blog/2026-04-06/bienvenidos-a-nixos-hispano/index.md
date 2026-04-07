@@ -1,6 +1,6 @@
 ---
-slug: bienvenidos
 title: Bienvenidos a NixOS Hispano
+slug: bienvenidos-a-nixos-hispano
 authors: [sincorchetes]
 tags: [nixos, comunidad]
 ---
