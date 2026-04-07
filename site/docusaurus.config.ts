@@ -126,7 +126,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} NixOS Hispano — Comunidad independiente sin ánimo de lucro. Nix y NixOS son proyectos de software libre bajo sus respectivas licencias. Construido con Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} NixOS Hispano — Comunidad independiente sin ánimo de lucro. Contenido bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. Nix y NixOS son proyectos de software libre bajo sus respectivas licencias. Construido con Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
