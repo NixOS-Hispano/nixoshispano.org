@@ -2,10 +2,6 @@
 
 {
 
-  packages = [
-    pkgs.nodejs_22
-  ];
-
   languages.javascript = {
     enable = true;
     bun.enable = true;
