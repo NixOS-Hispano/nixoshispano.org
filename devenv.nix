@@ -10,6 +10,7 @@
     enable = true;
     bun.enable = true;
     directory = "./site";
+    package = pkgs.nodejs_22;
   };
 
   scripts = {
