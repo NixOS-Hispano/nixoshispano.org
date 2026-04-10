@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "NixOS Hispano",
   tagline: "Comunidad hispanohablante de NixOS",
-  favicon: "img/favicon.ico",
+  favicon: "img/nixos.ico",
 
   url: "https://nixoshispano.org",
   baseUrl: "/",
