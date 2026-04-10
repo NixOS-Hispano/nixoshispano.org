@@ -176,6 +176,20 @@ NixOS Hispano no pretende ser una enciclopedia, sino un **espacio comunitario vi
 
 En resumen: la wiki oficial es para la **referencia**, y este blog es para la **conversación**.
 
+## Comentarios con GitHub Discussions
+
+Para fomentar esa conversación, hemos integrado un sistema de comentarios en cada entrada del blog usando [Giscus](https://giscus.app/). Giscus conecta los comentarios del sitio directamente con **GitHub Discussions** del repositorio del proyecto, de forma que:
+
+- **No necesitamos infraestructura propia**: los comentarios se almacenan en GitHub Discussions, sin bases de datos ni servicios adicionales.
+- **Autenticación con GitHub**: los usuarios comentan con su cuenta de GitHub, lo que evita spam y facilita la identificación de los participantes.
+- **Bidireccional**: los comentarios escritos aquí aparecen en GitHub Discussions y viceversa. Cualquiera puede participar desde donde le resulte más cómodo.
+- **Respeta el tema del sitio**: el widget de Giscus se adapta automáticamente al modo claro u oscuro de Docusaurus.
+- **Carga bajo demanda**: el widget se carga de forma diferida (`lazy`), sin afectar al rendimiento de la página.
+
+La integración se hace mediante el componente [`@giscus/react`](https://github.com/giscus/giscus-component) y un wrapper del tema de Docusaurus (`BlogPostItem`), que inyecta la sección de comentarios automáticamente al final de cada post. No es necesario añadir nada manualmente en cada entrada: todos los posts del blog incluyen comentarios por defecto.
+
+Si bajas hasta el final de esta página, podrás ver la sección de comentarios en acción. ¡Anímate a dejar el tuyo!
+
 ## Únete a la comunidad
 
 - **Telegram**: [NixOS Hispano](https://t.me/nixoshispano)
