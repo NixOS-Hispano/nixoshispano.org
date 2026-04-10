@@ -34,6 +34,11 @@ const config: Config = {
           editUrl:
             "https://gitlab.com/nixoshispano/nixoshispano.org/-/edit/main/",
         },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          filename: "sitemap.xml",
+        },
         theme: {
           customCss: "./src/css/custom.css",
         },
