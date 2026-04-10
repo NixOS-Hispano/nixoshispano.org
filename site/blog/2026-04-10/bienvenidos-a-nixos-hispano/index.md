@@ -64,7 +64,7 @@ Así es como definimos el entorno de desarrollo del sitio:
 
 Con esto conseguimos:
 
-- **Bun como runtime de JavaScript**: se usa [Bun](https://bun.sh/) en lugar de Node.js por su velocidad a la hora de instalar dependencias y ejecutar scripts.
+- **Bun como runtime de JavaScript**: se usa [Bun](https://bun.sh/) en lugar de Node.js por su velocidad a la hora de instalar dependencias y por su compatibilidad nativa, lo que simplifica enormemente la configuración en Nix.
 - **Scripts personalizados**: `dev`, `build` y `serve` son comandos disponibles directamente en la shell. Cualquier persona que clone el repositorio solo necesita ejecutar `devenv shell` y ya tiene todo listo.
 - **Variables de entorno**: se desactiva la telemetría de Docusaurus por defecto.
 - **Mensaje de bienvenida**: al entrar en el entorno, se muestra un resumen de los comandos disponibles.
@@ -152,6 +152,29 @@ Además de elegir devenv para el entorno, también se evaluó qué generador de 
 - **Markdown y MDX**: el contenido se escribe en Markdown estándar (o MDX si se necesitan componentes React), eliminando barreras de entrada para colaboradores.
 - **Comunidad y respaldo**: al ser un proyecto de Meta con miles de estrellas en GitHub, cuenta con soporte activo, actualizaciones frecuentes y un ecosistema de plugins y themes en constante crecimiento.
 - **Experiencia de desarrollo moderna**: hot reload, TypeScript nativo, y un sistema de theming basado en React que permite personalizar cualquier componente.
+
+## ¿Por qué no tenemos una wiki propia?
+
+Quizá te hayas fijado en que en la barra de navegación enlazamos directamente a la [wiki oficial de NixOS en español](https://wiki.nixos.org/wiki/NixOS_Wiki/es) en lugar de mantener una sección de wiki propia. Esta decisión es completamente intencionada, y responde a una filosofía clara: **no fragmentar la información de referencia**.
+
+La wiki oficial de NixOS ya es el lugar centralizado donde la comunidad global documenta paquetes, opciones de configuración, guías de instalación y resolución de problemas. Crear una wiki paralela en español supondría:
+
+- **Duplicar esfuerzo**: mantener contenido de referencia sincronizado con la wiki oficial es una tarea ingente y condenada a quedar desactualizada.
+- **Fragmentar la información**: los usuarios tendrían que buscar en dos sitios distintos sin saber cuál tiene la versión más completa o actualizada.
+- **Dividir a los colaboradores**: las contribuciones de documentación de referencia tienen más impacto en la wiki oficial, donde benefician a toda la comunidad hispanohablante de NixOS, no solo a los visitantes de este sitio.
+
+En su lugar, animamos a todo el mundo a **contribuir traducciones y contenido directamente en la wiki oficial**. Cuantas más páginas estén disponibles en español allí, mejor para todos.
+
+### Entonces, ¿qué papel juega este sitio?
+
+NixOS Hispano no pretende ser una enciclopedia, sino un **espacio comunitario vivo**. Aquí publicaremos:
+
+- **Tutoriales prácticos**: guías paso a paso con opinión y contexto, no solo documentación de referencia.
+- **Puntos de vista y experiencias**: artículos sobre cómo usamos NixOS en el día a día, decisiones de diseño, flujos de trabajo y lecciones aprendidas.
+- **Formas de contribuir**: cómo participar en la comunidad, traducir la wiki oficial, reportar bugs o colaborar con proyectos del ecosistema Nix.
+- **Noticias y novedades**: anuncios de versiones, cambios importantes en nixpkgs y eventos de la comunidad.
+
+En resumen: la wiki oficial es para la **referencia**, y este blog es para la **conversación**.
 
 ## Únete a la comunidad
 
