@@ -60,7 +60,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/og-nixos-hispano.png',
+    image: 'img/logo.png',
     navbar: {
       title: "NixOS Hispano",
       logo: {
