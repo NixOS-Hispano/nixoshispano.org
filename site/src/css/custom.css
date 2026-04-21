@@ -20,3 +20,10 @@
   --ifm-color-primary-lightest: #d0e7f5;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* Reduce blog post title size */
+.title_f1Hy {
+  font-size: 1.8em !important;
+  line-height: 1.3;
+}
